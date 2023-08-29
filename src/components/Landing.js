@@ -9,9 +9,11 @@ function Landing() {
             <div className={styles.overlay}></div>
             <video src={herovideo} autoPlay loop muted />
             <div className={styles.Content}>
-                <h2 className={styles.Landing}>Up to <strong>70% off</strong></h2>
-                <h1 className={styles.Landing}>Black Friday <strong>Sale</strong></h1>
-                <h2 className={styles.Landing}>Is almost here...</h2>
+                <h2>Up to <strong>70% off</strong></h2>
+                <div></div>
+                    <h3>London <strong>Lash</strong> </h3>
+                    <h1>Black Friday <strong>Sales</strong></h1>            
+                <h2>Are almost here...</h2>
                 <p>Lash Out on Savings: Up to <strong>70% Off</strong> Beauty Products this Black Friday!</p>
             </div>
         </div>
