@@ -5,43 +5,48 @@ import { Container, Row, Col, Button, Form } from 'react-bootstrap';
 
 const FormComponent = () => {
 return <Container className={styles.FormComponent}>
+    <div className={styles.FormContent}>
         <Form> 
-        <h3>Become a VIP</h3>
+        <h3>Become a <strong>VIP</strong></h3>
         <p>Join Us and Unlock VIP Access to Exclusive Deals Before Anyone Else!</p>
         <Form.Group className="mb-3"
             as={Row}
-            controlId="formBasicName">
-            <Form.Label column
-                sm={2}>Name</Form.Label>
-            <Col sm={10}>
-                <Form.Control type="name" placeholder="Enter name"/>
+            controlId="formBasicName"> 
+            <Col sm={12}>
+                <Form.Control 
+                type="name" 
+                placeholder="Enter name" 
+                className={styles.FormControl}/>
             </Col>
         </Form.Group>
 
         <Form.Group className="mb-3"
             as={Row}
-            controlId="formBasicEmail">
-            <Form.Label column
-                sm={2}>Email address</Form.Label>
-            <Col sm={10}>
-                <Form.Control type="email" placeholder="Enter email"/>
+            controlId="formBasicEmail">  
+            <Col sm={12}>
+                <Form.Control 
+                type="email" 
+                placeholder="Enter email" 
+                className={styles.FormControl}/>
             </Col>
         </Form.Group>
 
         <Form.Group className="mb-3"
             as={Row}
             controlId="formBasicTelephone">
-            <Form.Label column
-                sm={2}>Telephone</Form.Label>
-            <Col sm={10}>
-                <Form.Control type="telephone" placeholder="Enter telephone"/>
+            <Col sm={12}>
+                <Form.Control 
+                type="telephone" 
+                placeholder="Enter 
+                telephone" className={styles.FormControl}/>
             </Col>
         </Form.Group>
 
-        <Button variant="primary" type="submit">
+        <Button variant="primary" type="submit" className={styles.Button}>
             Submit
         </Button>
         </Form>
+        </div>
         </Container>;
 };
 
