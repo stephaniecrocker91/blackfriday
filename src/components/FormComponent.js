@@ -1,13 +1,11 @@
 import React from 'react';
-import '../App.css';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import styles from '../styles/FormComponent.module.css'
+import { Container, Row, Col, Button, Form } from 'react-bootstrap';
 
 
 const FormComponent = () => {
-return <Form> 
+return <Container className={styles.FormComponent}>
+        <Form> 
         <h3>Become a VIP</h3>
         <p>Join Us and Unlock VIP Access to Exclusive Deals Before Anyone Else!</p>
         <Form.Group className="mb-3"
@@ -43,7 +41,8 @@ return <Form>
         <Button variant="primary" type="submit">
             Submit
         </Button>
-        </Form>;
+        </Form>
+        </Container>;
 };
 
 export default FormComponent;
