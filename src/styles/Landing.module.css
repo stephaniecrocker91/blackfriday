@@ -76,7 +76,7 @@ video {
 
 @media screen and (max-width: 944px) {
     .Content {
-        margin-top: 10vh;
+        margin-top: 17vh;
     }
     h1 {
         font-size: 50px;
@@ -96,8 +96,15 @@ video {
         font-size: 40px;
     }
     .Content {
-        margin-top: 9vh;
+        margin-top: 20vh;
     }
+}
+
+@media screen and (max-width: 350px) {
+    h1 {
+        font-size: 40px;
+    }
+
 }
 
 

@@ -10,7 +10,7 @@ ABOUT THE WEBSITE:
 * * * 
 
 
-[DEPLOYED API HEROKU LINK](https://instantes-drf-api.herokuapp.com/)
+[DEPLOYED SITE HEROKU LINK](https://blackfriday-londonlash-7d12788698f6.herokuapp.com/)
 
 [DEPLOYED FRONTEND HEROKU LINK - LIVE SITE](https://instantes-react.herokuapp.com/)
 
