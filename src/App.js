@@ -6,7 +6,7 @@ import CountdownTimer from './components/CountdownTimer/CountdownTimer';
 function App() {
     return (<div className={styles.App}>
         <Landing />
-        <CountdownTimer/>
+        <CountdownTimer countdownTimestampMs={1700784000000}/>
         <FormComponent />
     </div>
     );
