@@ -14,7 +14,6 @@ function Landing() {
             <div className={styles.overlay}></div>
             <video src={herovideo} autoPlay loop muted />
             <div className={styles.Content}>
-                <h2>Up to <strong>70% off</strong></h2>
                     <h1>Black Friday <strong>Sales</strong></h1>            
                 <h2>Are almost here...</h2>
             </div>
