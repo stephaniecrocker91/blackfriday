@@ -1,4 +1,4 @@
-import React from 'react';
+import { useRef, React } from 'react';
 import styles from '../styles/Landing.module.css'
 import herovideo from '../videos/herovideo.mp4'
 import logo from '../images/logo.png'
@@ -8,7 +8,7 @@ import logo from '../images/logo.png'
 function Landing() {
     return (
         <>
-        <p>Unlock <strong>VIP Access</strong>  to Exclusive Deals Before Anyone Else! <i class="fa-regular fa-gem"></i></p>
+        <p>Unlock <strong><a href='#'>VIP Access</a></strong>  to Exclusive Deals Before Anyone Else! <i class="fa-regular fa-gem"></i></p>
         <img src={logo} alt="Girl in a jacket" className={styles.Logo}  />      
         <div className={styles.Hero}>
             <div className={styles.overlay}></div>

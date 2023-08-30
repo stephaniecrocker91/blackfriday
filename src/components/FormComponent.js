@@ -9,7 +9,7 @@ return <>
     <div className={styles.FormContent}>
         <Form> 
         <h3>Become a <strong>VIP</strong> <i class="fa-regular fa-gem"></i></h3>
-        <p>Join Us and Unlock VIP Access to Exclusive Deals Before Anyone Else!</p>
+        <p>Join Us and Unlock <strong>VIP Access</strong> to Exclusive Deals Before Anyone Else!</p>
         <Form.Group className="mb-3"
             as={Row}
             controlId="formBasicName"> 

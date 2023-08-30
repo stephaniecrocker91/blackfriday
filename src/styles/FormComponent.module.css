@@ -39,6 +39,7 @@
 
 .Button:hover {
     opacity: 0.8;
+    background-color: #7f7e3d;
     border-color: transparent;
     cursor: pointer;
 }

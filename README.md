@@ -101,4 +101,6 @@ I also made use on the play of font-weight as used in the logo. Important words 
 
 Headers are uppercased and letter spacing is increased.
 
+Font awesome icons were added, also inspired by the website. In this case I used the free ones, which can be replaced by the colored emoji's once purchased. 
+
 * * * 
