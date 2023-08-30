@@ -28,11 +28,11 @@ useEffect(() => {
             <div className = {styles.countdown}>
                 <span>{remainingTime.days}</span>
                 <span>days</span>
-                <span>{remainingTime.hours}</span>
+                <span className={styles.twonumbers}>{remainingTime.hours}</span>
                 <span>hours</span>
-                <span>{remainingTime.minutes}</span>
+                <span className={styles.twonumbers}>{remainingTime.minutes}</span>
                 <span>minutes</span>
-                <span>{remainingTime.seconds}</span>
+                <span className={styles.twonumbers}>{remainingTime.seconds}</span>
                 <span>seconds</span>
             </div>
         </div>
