@@ -3,17 +3,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #e8d9c1;
+    width: 100vw;
 
 }
 
 .FormContent {
-    background-color: #e8d9c1;
-    color: black;
+    background-color: black;
+    color: white;
     padding: 20px 40px;
     border-radius: 20px;
     width: 60vw;
     margin-left: 10vw;
     margin-right: 10vw;
+    box-shadow: (0, 0, 0, 0.1) 0px 0.285714rem 0.571429rem 0px;
 }
 
 .FormContent h3,p {
@@ -26,16 +29,30 @@
 
 
 .Button{
-    background-color: black;
+    background-color: #7f7e3d;
     border-radius: 20px;
     font-weight: 500;
     text-transform: uppercase;
+
+
 }
+
+.Button:hover {
+    opacity: 0.8;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.Button:hover:active {
+    background-color: #8a8849 !important;
+}
+
+.Button:active {
+    background-color: #8a8849 !important;
+}
+
 .Button:focus {
-    background-color: black;
-    border-radius: 20px;
-    font-weight: 500;
-    text-transform: uppercase;
+    background-color: #8a8849;
 }
 
 

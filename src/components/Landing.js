@@ -7,6 +7,7 @@ import herovideo from '../videos/herovideo.mp4'
 function Landing() {
     return (
         <>
+        <p>Lash Out on Savings: Up to <strong>70% Off</strong> Beauty Products this Black Friday!</p>
         <div className={styles.Hero}>
             <div className={styles.overlay}></div>
             <video src={herovideo} autoPlay loop muted />
@@ -15,9 +16,10 @@ function Landing() {
                     <h3>London <strong>Lash</strong> </h3>
                     <h1>Black Friday <strong>Sales</strong></h1>            
                 <h2>Are almost here...</h2>
-                <p>Lash Out on Savings: Up to <strong>70% Off</strong> Beauty Products this Black Friday!</p>
             </div>
         </div>
+            <p>Lash Out on Savings: Up to <strong>70% Off</strong> Beauty Products this Black Friday!</p>
+
         </>
     );
 }

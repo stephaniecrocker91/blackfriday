@@ -4,7 +4,8 @@ import { Container, Row, Col, Button, Form } from 'react-bootstrap';
 
 
 const FormComponent = () => {
-return <Container className={styles.FormComponent}>
+return <>
+<div className={styles.FormComponent}>
     <div className={styles.FormContent}>
         <Form> 
         <h3>Become a <strong>VIP</strong></h3>
@@ -47,7 +48,8 @@ return <Container className={styles.FormComponent}>
         </Button>
         </Form>
         </div>
-        </Container>;
+        </div>
+        </>;
 };
 
 export default FormComponent;

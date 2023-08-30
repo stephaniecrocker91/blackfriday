@@ -10,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 h1 strong {
@@ -37,7 +38,7 @@ video {
     background-color: rgba(0,0,0, 1);
 }
 
-h1,h2,h3 {
+.Content h1,h2,h3 {
     font-weight: 200;
     text-transform: uppercase;
 
@@ -57,6 +58,14 @@ h2 {
     color: #e5c28b;
     border-radius: 20px;
     padding: 0 20px;
+}
+
+p {
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 

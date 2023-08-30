@@ -8,12 +8,11 @@
 .countdown {
     width: 600px;
     height: 100px;
-    border: 2px solid #e5c28b;
     font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #e5c28b;
+    color: #7f7e3d;
 
 }
 
