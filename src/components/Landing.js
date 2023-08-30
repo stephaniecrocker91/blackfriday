@@ -12,7 +12,6 @@ function Landing() {
             <video src={herovideo} autoPlay loop muted />
             <div className={styles.Content}>
                 <h2>Up to <strong>70% off</strong></h2>
-                <div></div>
                     <h3>London <strong>Lash</strong> </h3>
                     <h1>Black Friday <strong>Sales</strong></h1>            
                 <h2>Are almost here...</h2>

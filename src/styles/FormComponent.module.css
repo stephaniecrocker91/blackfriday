@@ -7,8 +7,8 @@
 }
 
 .FormContent {
-    background-color: black;
-    color: white;
+    background-color: #e8d9c1;
+    color: black;
     padding: 20px 40px;
     border-radius: 20px;
     width: 60vw;
@@ -20,24 +20,19 @@
     text-align: center;
 }
 
-.FormContent h3 {
-    background-color: rgba(229,194,139,1);
-}
 .center {
     text-align: center;
 }
 
-.FormControl{
-    background-color: black;
-    }
-
-.FormControl:focus{
-    background-color:rgb(36, 35, 35);
-    color: white;
-    }
 
 .Button{
-    background-color: rgba(229,194,139,1);
+    background-color: black;
+    border-radius: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.Button:focus {
+    background-color: black;
     border-radius: 20px;
     font-weight: 500;
     text-transform: uppercase;

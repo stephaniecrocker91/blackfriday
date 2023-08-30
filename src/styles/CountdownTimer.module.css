@@ -1,5 +1,4 @@
 .Timer{
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,11 +8,13 @@
 .countdown {
     width: 600px;
     height: 100px;
-    border: 2px solid black;
+    border: 2px solid #e5c28b;
     font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #e5c28b;
+
 }
 
 .countdown span {
