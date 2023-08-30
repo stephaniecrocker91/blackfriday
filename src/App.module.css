@@ -1,6 +1,11 @@
 .App {
     font-family: Nunito,Helvetica,sans-serif;
     background-color: white;
+    font-weight: 100;
     /* color: white;
     */
     }
+
+p {
+    letter-spacing: 0.5px;
+}
