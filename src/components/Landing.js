@@ -4,10 +4,11 @@ import herovideo from '../videos/herovideo.mp4'
 import logo from '../images/logo.png'
 
 
+
 function Landing() {
     return (
         <>
-        <p>Unlock <strong>VIP Access</strong>  to Exclusive Deals Before Anyone Else!</p>
+        <p>Unlock <strong>VIP Access</strong>  to Exclusive Deals Before Anyone Else! <i class="fa-regular fa-gem"></i></p>
         <img src={logo} alt="Girl in a jacket" className={styles.Logo}  />      
         <div className={styles.Hero}>
             <div className={styles.overlay}></div>

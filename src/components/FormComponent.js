@@ -8,7 +8,7 @@ return <>
 <div className={styles.FormComponent}>
     <div className={styles.FormContent}>
         <Form> 
-        <h3>Become a <strong>VIP</strong></h3>
+        <h3>Become a <strong>VIP</strong> <i class="fa-regular fa-gem"></i></h3>
         <p>Join Us and Unlock VIP Access to Exclusive Deals Before Anyone Else!</p>
         <Form.Group className="mb-3"
             as={Row}
