@@ -1,70 +1,104 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+BLACK FRIDAY SALES LANDING PAGE - LONDON LASH PRO
+==================================
 
-## Available Scripts
+* * *
 
-In the project directory, you can run:
+ABOUT THE WEBSITE:
+------------------
 
-### `npm start`
+* * * 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[DEPLOYED API HEROKU LINK](https://instantes-drf-api.herokuapp.com/)
 
-### `npm test`
+[DEPLOYED FRONTEND HEROKU LINK - LIVE SITE](https://instantes-react.herokuapp.com/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+_BLACK FRIDAY SALES Landing Page_ was created for London Las Pro.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+is a public online blog-styled media platford where users can create a profile and post their images along with a title and content. Users can also view other users profiles, comment, like and favourite them! This interactive platform is designed to provide a a rich online community as users interact with each others posts.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src="src/assets/amiresponsive.png" width="500px">
+<img src="src/assets/home.png" width="500px">
 
-### `npm run eject`
+* * * 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+TARGET AUDIENCE
+------------------
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* * *
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This platform targets pree-teens, teenagers and adults. Anyone who wants to can create a profile can post images and content and connect with others! From grandma posting cute cat pics, to professional photographers.. everyone can find their place in Instantes. The search feature allows for people to find content they are interested on, follow the profiles and even bookmark the posts.
 
-## Learn More
+*   Children 13+ (who are allowed to be on social media)
+*   Adults
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  
+* * *
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+USER STORIES:
+-------------
 
-### Code Splitting
+* * *
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* * * 
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+STRATEGY:
+---------
 
-### Making a Progressive Web App
+* * *
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Create an aesthetically pleasing, simple yet fast  open source user interface content sharing app that is easy to navigate. The site allows users to create their profile (including avatar, username and bio), and upload their own content including photos, titles and decriptions. Users can also view and interact with other users posts: liking, commenting and saving as favourites. Their favourites will all be displayed in their favourites page.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The site will allow for user authentification, and basic CRUD functionality.
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The goal is to create a code that is clear and allows you to update with ease. 
 
-### `npm run build` fails to minify
+* * * 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+STRUCTURE:
+---------
+
+* * *
+
+
+
+* * * 
+
+SKELETON:
+---------
+
+* * *
+
+
+
+* * * 
+
+COLORS:
+---------
+
+* * *
+
+The color scheme used for this project were inspired by London Lash Pro's color pallette used in their website.
+I used a little more black in the landing page as it feed into the Black Sales Theme. For example: alert banners, hero video, VIP sign up form.
+
+* * * 
+TYPOGRAPHY:
+---------
+
+* * *
+
+The Typography used by London Lash is FUTURA PT which is purchased by Adobe.
+As I do not hold a license, for the purpose of this project I used Nunito, which is Google Fonts equivalent.
+
+I also made use on the play of font-weight as used in the logo. Important words that are meant to stand out to the customers are in BOLD. 
+
+Headers are uppercased and letter spacing is increased.
+
+* * * 
