@@ -1,13 +1,19 @@
+.FormComponent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .FormContent {
     background-color: black;
     color: white;
     padding: 20px 40px;
-    width: 60vw;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     border-radius: 20px;
+    width: 60vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 .FormContent h3,p {
