@@ -1,5 +1,5 @@
 .VipHeader {
-    margin-top: 0;
+    margin-top: 20px;
     margin-bottom: 0;
     padding-top: 20px;
     padding-bottom: 7px;
@@ -15,17 +15,18 @@
     */
     width: 100vw;
 
+
 }
 
 .FormContent {
     background-color: #fef7ef;
     color: black;
     padding: 20px 40px;
-    border-radius: 20px;
     width: 60vw;
     margin-left: 10vw;
     margin-right: 10vw;
-    box-shadow: (0, 0, 0, 0.1) 0px 0.285714rem 0.571429rem 0px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 .FormContent h3,p {
@@ -39,7 +40,8 @@
 
 
 .Button{
-    background-color: #7f7e3d;
+    background-color: black;
+    border-color: black;
     border-radius: 20px;
     font-weight: 500;
     text-transform: uppercase;
@@ -49,21 +51,27 @@
 
 .Button:hover {
     opacity: 0.8;
-    background-color: #7f7e3d;
-    border-color: transparent;
+    background-color: black;
+    border-color: white;
     cursor: pointer;
 }
 
 .Button:hover:active {
-    background-color: #8a8849 !important;
+    background-color: black !important;
+    border-color: black;
+    color: white
 }
 
 .Button:active {
-    background-color: #8a8849 !important;
+    background-color: black !important;
+    border-color: black;
+    color: white
 }
 
 .Button:focus {
-    background-color: #8a8849;
+    background-color: black !important;
+    border-color: black;
+    color: white
 }
 
 
