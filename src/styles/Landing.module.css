@@ -40,7 +40,7 @@
 .Content div {
     background-color:  rgba(0,0,0, 0.5);
     padding: 0;
-    top: 0;
+    top:0;
 }
 
 /* Media Queries */
@@ -51,7 +51,6 @@
     video {
 
         height: 50vh;
-
     }
     .Content {
         margin-top: 20vh;
@@ -83,7 +82,18 @@
         font-size: 40px;
     }
     .Content {
-        margin-top: 20vh;
+        height: 50vh;
+        
+    }
+    .Hero {
+        height: 50vh;
+    }
+
+    .Hero img {
+        height: 50vh;
+    }
+    .overlay {
+        height: 50vh;
     }
 }
 
