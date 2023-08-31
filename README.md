@@ -20,8 +20,8 @@ _BLACK FRIDAY SALES Landing Page_ was created for London Las Pro.
 
 is a public online blog-styled media platford where users can create a profile and post their images along with a title and content. Users can also view other users profiles, comment, like and favourite them! This interactive platform is designed to provide a a rich online community as users interact with each others posts.
 
-<img src="src/assets/amiresponsive.png" width="500px">
-<img src="src/assets/home.png" width="500px">
+<img src="src/images/amiresponsive.png" width="500px">
+<img src="src/images/home.png" width="500px">
 
 * * * 
 

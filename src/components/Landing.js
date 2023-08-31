@@ -2,8 +2,7 @@ import { useRef, React } from 'react';
 import styles from '../styles/Landing.module.css'
 import herovideo from '../videos/herovideo.mp4'
 import logo from '../images/logo.png'
-
-
+import hero from '../images/hero.png'
 
 function Landing() {
     return (
@@ -12,7 +11,7 @@ function Landing() {
         <img src={logo} alt="Girl in a jacket" className={styles.Logo}  />      
         <div className={styles.Hero}>
             <div className={styles.overlay}></div>
-            <video src={herovideo} autoPlay loop muted />
+            <img src={hero} alt='Hero with lashes' />
             <div className={styles.Content}>
                     <h1>Black Friday <strong>Sales</strong></h1>            
                 <h2>Are almost here...</h2>
