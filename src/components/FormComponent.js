@@ -5,49 +5,51 @@ import { Container, Row, Col, Button, Form } from 'react-bootstrap';
 
 const FormComponent = () => {
 return <>
-<div className={styles.FormComponent}>
-    <div className={styles.FormContent}>
-        <Form> 
+    <div className={styles.VipHeader}>
         <h3>Become a <strong>VIP</strong> <i class="fa-regular fa-gem"></i></h3>
-        <p>Join Us and Unlock <strong>VIP Access</strong> to Exclusive Deals Before Anyone Else!</p>
-        <Form.Group className="mb-3"
-            as={Row}
-            controlId="formBasicName"> 
-            <Col sm={12}>
-                <Form.Control 
-                type="name" 
-                placeholder="Enter name" 
-                className={styles.FormControl}/>
-            </Col>
-        </Form.Group>
+    </div>
+    <div className={styles.FormComponent}>
+        <div className={styles.FormContent}>
+            <Form> 
+            <p>Join Us and Unlock <strong>VIP Access</strong> to Exclusive Deals Before Anyone Else!</p>
+            <Form.Group className="mb-3"
+                as={Row}
+                controlId="formBasicName"> 
+                <Col sm={12}>
+                    <Form.Control 
+                    type="name" 
+                    placeholder="Enter name" 
+                    className={styles.FormControl}/>
+                </Col>
+            </Form.Group>
 
-        <Form.Group className="mb-3"
-            as={Row}
-            controlId="formBasicEmail">  
-            <Col sm={12}>
-                <Form.Control 
-                type="email" 
-                placeholder="Enter email" 
-                className={styles.FormControl}/>
-            </Col>
-        </Form.Group>
+            <Form.Group className="mb-3"
+                as={Row}
+                controlId="formBasicEmail">  
+                <Col sm={12}>
+                    <Form.Control 
+                    type="email" 
+                    placeholder="Enter email" 
+                    className={styles.FormControl}/>
+                </Col>
+            </Form.Group>
 
-        <Form.Group className="mb-3"
-            as={Row}
-            controlId="formBasicTelephone">
-            <Col sm={12}>
-                <Form.Control 
-                type="telephone" 
-                placeholder="Enter 
-                telephone" className={styles.FormControl}/>
-            </Col>
-        </Form.Group>
+            <Form.Group className="mb-3"
+                as={Row}
+                controlId="formBasicTelephone">
+                <Col sm={12}>
+                    <Form.Control 
+                    type="telephone" 
+                    placeholder="Enter 
+                    telephone" className={styles.FormControl}/>
+                </Col>
+            </Form.Group>
 
-        <Button variant="primary" type="submit" className={styles.Button}>
-            Submit
-        </Button>
-        </Form>
-        </div>
+            <Button variant="primary" type="submit" className={styles.Button}>
+                Submit
+            </Button>
+            </Form>
+            </div>
         </div>
         </>;
 };

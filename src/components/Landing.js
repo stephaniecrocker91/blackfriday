@@ -1,5 +1,6 @@
 import { useRef, React } from 'react';
 import styles from '../styles/Landing.module.css'
+import s from '../styles/Banner.module.css'
 import hero from '../images/hero.png'
 
 function Landing() {
@@ -16,7 +17,7 @@ function Landing() {
             </div>
         </div>
 
-            <p>Lash Out on Savings: Up to <strong>70% Off</strong> Beauty Products this Black Friday!</p>
+            <p className={s.Banner} >Lash Out on Savings: Up to <strong>70% Off</strong> Beauty Products this Black Friday!</p>
 
         </>
     );
