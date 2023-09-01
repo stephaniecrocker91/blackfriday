@@ -1,5 +1,4 @@
-
-BLACK FRIDAY SALES LANDING PAGE - LONDON LASH PRO
+London Lash Pro: Black Friday Sales Landing
 =================================================
 
 * * *
@@ -11,6 +10,7 @@ ABOUT THE WEBSITE:
 
 
 [DEPLOYED SITE HEROKU LINK](https://blackfriday-londonlash-7d12788698f6.herokuapp.com/)
+[GitHub Link](https://github.com/stephaniecrocker91/blackfriday)
 
 _BLACK FRIDAY SALES Landing Page_ was created for London Lash Pro using React.
 
