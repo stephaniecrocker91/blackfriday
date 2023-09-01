@@ -43,6 +43,14 @@
 }
 
 /* Media Queries */
+
+@media screen and (max-width: 1328px) {
+    
+    .Content {
+        margin-top: 32vh;
+    }
+}
+
 @media screen and (max-width: 1111px) {
     .Hero {
         height: 60vh;
@@ -51,37 +59,25 @@
 
         height: 50vh;
     }
-    .Content {
-        margin-top: 20vh;
-    }
     h1 {
         font-size: 60px;
     }
 }
 
 @media screen and (max-width: 944px) {
-    .Content {
-        margin-top: 20vh;
-    }
     h1 {
         font-size: 50px;
     }
 }
 
 
-@media screen and (max-width: 585px) {
-    .Content {
-        margin-top: 20vh;
-    }
-}
-
-
 @media screen and (max-width: 466px) {
     h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
     .Content {
         height: 50vh;
+        margin-top: 30vh;
         
     }
     .Hero {
