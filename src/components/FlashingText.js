@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from 'react';
 
-let defaultColor = "rgba(255,255,255, 0.5)"
+let defaultColor = 200
 let num = 0
 
 const FlashingText =()=> {
@@ -23,9 +23,9 @@ const FlashingText =()=> {
 
     function update() {
         if(num % 2 === 0){
-            defaultColor= "rgba(255,255,255, 0.5)";
+            defaultColor= 200;
         } else {
-            defaultColor="rgba(0,0,0, 0.5)";
+            defaultColor=800;
         }
         console.log(defaultColor);
         return(defaultColor)
@@ -34,10 +34,9 @@ const FlashingText =()=> {
 
     return (
         <> 
-        <div style={{ backgroundColor:[newColor]}}>
-        <h1>Black Friday <strong>Sales</strong></h1>
-        <h2>Are almost here...</h2>     
-        </div>    
+
+        <h1 style={{ fontWeight:[newColor]}}>Black Friday Sales</h1>
+        <h2>Are almost here...</h2>      
         </>
     );
 }
