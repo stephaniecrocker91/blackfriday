@@ -16,9 +16,9 @@ ABOUT THE WEBSITE:
 
 
 
-_BLACK FRIDAY SALES Landing Page_ was created for London Las Pro.
+_BLACK FRIDAY SALES Landing Page_ was created for London Lash Pro.
 
-is a public online blog-styled media platford where users can create a profile and post their images along with a title and content. Users can also view other users profiles, comment, like and favourite them! This interactive platform is designed to provide a a rich online community as users interact with each others posts.
+The landing page aligns with London Lash Pro's website aesthetics, featuring the same color palette and a font resembling Futura PT (licensed through Adobe). It boasts a minimalist yet interactive design, including advertising banners, a simulated navigation bar with the logo, a striking hero image with animated promotional text, a countdown timer, and a user-friendly sign-up form.
 
 <img src="src/images/amiresponsive.png" width="500px">
 <img src="src/images/home.png" width="500px">
@@ -31,54 +31,36 @@ TARGET AUDIENCE
 
 * * *
 
-This platform targets pree-teens, teenagers and adults. Anyone who wants to can create a profile can post images and content and connect with others! From grandma posting cute cat pics, to professional photographers.. everyone can find their place in Instantes. The search feature allows for people to find content they are interested on, follow the profiles and even bookmark the posts.
+London Lash Pro, as a company specializing in eyelash and beauty products and services, would typically target the following audience:
 
-*   Children 13+ (who are allowed to be on social media)
-*   Adults
+1. Beauty Professional
+2. Salon and Spa Owners
+3. Individual Lash Technicians
+4. Beauty Enthusiasts
+5. Training and Education Seekers
+6. E-commerce Shoppers
+7. International Markets
+
 
   
 * * *
 
-USER STORIES:
--------------
-
-* * *
-
-* * * 
-
-
-STRATEGY:
----------
-
-* * *
-
-Create an aesthetically pleasing, simple yet fast  open source user interface content sharing app that is easy to navigate. The site allows users to create their profile (including avatar, username and bio), and upload their own content including photos, titles and decriptions. Users can also view and interact with other users posts: liking, commenting and saving as favourites. Their favourites will all be displayed in their favourites page.
-
-
-The site will allow for user authentification, and basic CRUD functionality.
-
-
-The goal is to create a code that is clear and allows you to update with ease. 
-
-* * * 
 
 STRUCTURE:
 ---------
 
 * * *
+This landing page was created using React. It is composed by several Components which are rendered. The components include:
 
-
-
-* * * 
-
-SKELETON:
----------
-
-* * *
-
-
+1. Advertising banners.
+2. A simulated navigation bar with the logo. 
+3. Landing Page Image: striking hero image with.
+4. Animated promotional text which is displayed over the Hero. 
+4. Countdown timer.
+5. User-friendly sign-up form.
 
 * * * 
+
 
 COLORS:
 ---------
