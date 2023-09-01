@@ -1,6 +1,6 @@
 
 BLACK FRIDAY SALES LANDING PAGE - LONDON LASH PRO
-==================================
+=================================================
 
 * * *
 
@@ -12,16 +12,14 @@ ABOUT THE WEBSITE:
 
 [DEPLOYED SITE HEROKU LINK](https://blackfriday-londonlash-7d12788698f6.herokuapp.com/)
 
-[DEPLOYED FRONTEND HEROKU LINK - LIVE SITE](https://instantes-react.herokuapp.com/)
-
-
-
-_BLACK FRIDAY SALES Landing Page_ was created for London Lash Pro.
+_BLACK FRIDAY SALES Landing Page_ was created for London Lash Pro using React.
 
 The landing page aligns with London Lash Pro's website aesthetics, featuring the same color palette and a font resembling Futura PT (licensed through Adobe). It boasts a minimalist yet interactive design, including advertising banners, a simulated navigation bar with the logo, a striking hero image with animated promotional text, a countdown timer, and a user-friendly sign-up form.
 
-<img src="src/images/amiresponsive.png" width="500px">
-<img src="src/images/home.png" width="500px">
+It is fully responsive for both desktop and mobile.
+
+<img src="src/images/desktop.png" width="500px">
+<img src="src/images/home.png" width="200px">
 
 * * * 
 
@@ -67,8 +65,12 @@ COLORS:
 
 * * *
 
-The color scheme used for this project were inspired by London Lash Pro's color pallette used in their website.
-I used a little more black in the landing page as it feed into the Black Sales Theme. For example: alert banners, hero video, VIP sign up form.
+The project's color scheme drew inspiration from London Lash Pro's minimalist and clean palette featured on their website. 
+
+
+<img src="src/images/colorpallette.png" width="500px">
+
+To align with the Black Friday Sales theme, I incorporated a subtle infusion of black throughout the landing page. For instance, this can be seen in alert banners and black-and-white imagery.
 
 * * * 
 TYPOGRAPHY:
@@ -76,13 +78,13 @@ TYPOGRAPHY:
 
 * * *
 
-The Typography used by London Lash is FUTURA PT which is purchased by Adobe.
-As I do not hold a license, for the purpose of this project I used Nunito, which is Google Fonts equivalent.
+London Lash employs the FUTURA PT typography, acquired through Adobe licensing. However, for this project, I utilized the Google Fonts equivalent, Nunito, due to licensing constraints. 
+<img src="src/images/futura.png" width="500px">
+<img src="src/images/nunito.png" width="500px">
 
-I also made use on the play of font-weight as used in the logo. Important words that are meant to stand out to the customers are in BOLD. 
 
-Headers are uppercased and letter spacing is increased.
+To enhance customer engagement, I employed bold formatting for key terms, capitalized headers, and increased letter spacing. 
 
-Font awesome icons were added, also inspired by the website. In this case I used the free ones, which can be replaced by the colored emoji's once purchased. 
+Additionally, Font Awesome icons were integrated, mirroring the website's design, with the intention to replace them with colored emojis upon acquisition.
 
 * * * 
