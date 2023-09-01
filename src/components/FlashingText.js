@@ -1,41 +1,36 @@
 import { React, useState, useEffect } from 'react';
 
-let defaultColor = 200
+let defaultWeight = 200
 let num = 0
 
 const FlashingText =()=> {
-    const [newColor, setNewColor] = useState(defaultColor);
+    const [newWeight, setNewWeight] = useState(defaultWeight);
 
     useEffect(() => {
         const intervalId = setInterval(() => {
-            updateColor();
+            updateWeight();
         }, 1000);
         return () => clearInterval(intervalId);
     },[])
 
-    function updateColor () {
-        console.log("Hello World!")
+    function updateWeight () {
         num+=1
-        console.log(num)
-        setNewColor(update());
-
+        setNewWeight(update());
     }
 
     function update() {
         if(num % 2 === 0){
-            defaultColor= 200;
+            defaultWeight= 200;
         } else {
-            defaultColor=800;
+            defaultWeight=800;
         }
-        console.log(defaultColor);
-        return(defaultColor)
+        return(defaultWeight)
     }
 
 
     return (
         <> 
-
-        <h1 style={{ fontWeight:[newColor]}}>Black Friday Sales</h1>
+        <h1 style={{ fontWeight:[newWeight]}}>Black Friday Sales</h1>
         <h2>Are almost here...</h2>      
         </>
     );

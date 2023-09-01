@@ -8,7 +8,6 @@ ABOUT THE WEBSITE:
 
 * * * 
 
-
 [DEPLOYED SITE HEROKU LINK](https://blackfriday-londonlash-7d12788698f6.herokuapp.com/)
 [GitHub Link](https://github.com/stephaniecrocker91/blackfriday)
 
