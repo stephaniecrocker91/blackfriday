@@ -1,3 +1,4 @@
+/* VIP Header */
 .VipHeader {
     margin-top: 20px;
     margin-bottom: 0;
@@ -5,19 +6,15 @@
     padding-bottom: 7px;
 }
 
+/* Form Outer Div */
 .FormComponent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*
-    background-color: #e8d9c1;
-    */
     width: 100vw;
-
-
 }
-
+/* Form Content */
 .FormContent {
     background-color: #fef7ef;
     color: black;
@@ -38,15 +35,13 @@
     text-align: center;
 }
 
-
+/* BUTTON STYLING ***************************/
 .Button{
     background-color: black;
     border-color: black;
     border-radius: 20px;
     font-weight: 500;
     text-transform: uppercase;
-
-
 }
 
 .Button:hover {
@@ -74,7 +69,7 @@
     color: white
 }
 
-
+/* MEDIA QUERIES ************************/
 @media screen and (max-width: 900px) {
     .FormContent {
         width: 90vw;

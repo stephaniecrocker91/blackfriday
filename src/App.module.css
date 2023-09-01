@@ -1,4 +1,4 @@
-/* Universal CSS styling through app**********/
+/* Universal CSS styling through app */
 
 .App {
     font-family: nunito,Helvetica,sans-serif;
@@ -7,7 +7,7 @@
     text-align: center;
     }
 
-/* FONTS HERE ********************************/
+/* Universal Fonts */
 h1, h2, h3 {
     font-weight: 200;
 }
@@ -32,12 +32,3 @@ h2 {
     letter-spacing:2px;
     font-style: italic; 
 }
-
-/*
-.Banner {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-*/

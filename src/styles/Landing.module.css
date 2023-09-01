@@ -1,5 +1,4 @@
-/* LANDING PAGE **********/
-
+/* Landing Page */
 .Hero {
     width: 100%;
     height: 60vh;
@@ -70,15 +69,13 @@
     }
 }
 
-
 @media screen and (max-width: 466px) {
     h1 {
         font-size: 35px;
     }
     .Content {
         height: 50vh;
-        margin-top: 30vh;
-        
+        margin-top: 30vh;    
     }
     .Hero {
         height: 50vh;
