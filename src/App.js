@@ -12,7 +12,6 @@ function App() {
         <Banner />
         <NavBar />
         <Landing />
-        <CountdownTimer countdownTimestampMs={1700784000000}/>
         <FormComponent />
     </div>
     );
