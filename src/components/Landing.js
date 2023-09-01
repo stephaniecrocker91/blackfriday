@@ -12,12 +12,10 @@ function Landing() {
             <img src={hero} alt='Hero with lashes' />
             <div className={styles.Content}>
                 <div>
-                <h1>Black Friday <strong>Sales</strong></h1>
-                <h2>Are almost here...</h2>
+                <FlashingText/>
                 </div>            
             </div>
         </div>
-        <FlashingText/>
             <p className={s.Banner} >Lash Out on Savings: Up to <strong>70% Off</strong> Beauty Products this Black Friday!</p>
         </>
     );
