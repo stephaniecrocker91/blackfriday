@@ -1,10 +1,10 @@
 /* .HeroBlock container */
 .carouselContainer {
     position: relative;
-  }
-  
+}
+
   /* .overlay styles */
-  .overlay {
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -12,5 +12,4 @@
     height: 100%; /* Cover the entire container */
     background: linear-gradient(to right, rgba(0, 0, 0, 1) 50%, transparent 100%);
     z-index: 2; /* Ensure the overlay is above the carousel */
-  }
-  
+}

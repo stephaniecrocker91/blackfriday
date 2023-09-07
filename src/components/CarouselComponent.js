@@ -27,19 +27,24 @@ function CarouselComponent() {
             }>
                 <Carousel>
                     <Carousel.Item interval={3000}>
+                        {/* Overlay on each item*/}
+                        <div className={
+                            styles.overlay
+                        }></div>
                         <img className="d-block w-100"
                             src={Hero}
                             alt="First slide"/>
                     </Carousel.Item>
                     <Carousel.Item interval={3000}>
+                        {/* Overlay on each item*/}
+                        <div className={
+                            styles.overlay
+                        }></div>
                         <img className="d-block w-100"
                             src={Hero2}
                             alt="Second slide"/>
                     </Carousel.Item>
                 </Carousel>
-                <div className={
-                    styles.overlay
-                }></div>
             </div>
         </section>
     );
