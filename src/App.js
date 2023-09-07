@@ -13,7 +13,6 @@ function App() {
         <Banner />
         <Landing />
         <FormComponent />
-        <CarouselComponent />
     </div>
     );
         }
