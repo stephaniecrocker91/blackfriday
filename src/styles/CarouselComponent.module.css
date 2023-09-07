@@ -1,9 +1,3 @@
-img {
-    width: 50%;
-    height: 60vh;
-    object-fit: cover;
-}
-
 .HeroBlock {
     position: relative!important;
 }
@@ -17,4 +11,5 @@ img {
     height: 60vh; /* Adjust the height as needed */
     background: linear-gradient(to right, rgba(0, 0, 0, 1) 50%, transparent 100%);
     z-index: 2; /* Ensure the overlay is above the carousel */
-  }
+}
+
