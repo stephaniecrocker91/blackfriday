@@ -1,7 +1,8 @@
 import styles from './App.module.css';
 import FormComponent from './components/FormComponent'
 import Landing from './components/Landing';
-import Banner from './components/Banner';
+import BlackBanner from './components/BlackBanner';
+import BeigeBanner from './components/BeigeBanner';
 import NavBar from './components/NavBar';
 import CountdownTimer from './components/CountdownTimer/CountdownTimer';
 import CarouselComponent from './components/CarouselComponent';
@@ -10,9 +11,10 @@ import CarouselComponent from './components/CarouselComponent';
 function App() {
     return (
     <div className={styles.App}>
-        <Banner />
+        <BlackBanner />
         <Landing />
-        <FormComponent />
+        <BeigeBanner/>
+        <FormComponent />          
     </div>
     );
         }

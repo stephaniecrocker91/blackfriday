@@ -1,0 +1,10 @@
+/* Alert Banner **********/
+
+.BeigeBanner {
+    background-color: #e7d9c1;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
