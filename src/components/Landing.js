@@ -4,7 +4,7 @@ import s from '../styles/Banner.module.css'
 import hero from '../images/hero.png'
 import FlashingText from './FlashingText'
 import CountDownTimer from './CountdownTimer/CountdownTimer'
-
+import CarouselComponent from './CarouselComponent';
 
 function Landing() {
     return (

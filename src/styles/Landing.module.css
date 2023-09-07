@@ -5,7 +5,7 @@
     text-align: right;
 }
 
-.Hero img {
+img {
     width: 50%;
     height: 60vh;
     object-fit: cover;
