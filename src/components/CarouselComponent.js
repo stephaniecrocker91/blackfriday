@@ -1,6 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
 import Hero from '../images/herocard.png';
 import Hero2 from '../images/herocard2.png';
+import Hero2mobile from '../images/hero2mobile.png';
+import Heromobile from '../images/heromobile.png';
 import styles from '../styles/Landing.module.css';
 
 var heroData = [
@@ -16,11 +18,13 @@ var heroData = [
 
 function CarouselComponent() {
     return (
+        <>
+        {/** DESKTOP DISPLAY */}
         <section id={
                 styles.home
             }
             className={
-                styles.HeroBlock
+                `${styles.HeroBlock}${styles.DesktopDisplay}`
         }>
             <div className={
                 styles.carouselContainer
@@ -47,33 +51,41 @@ function CarouselComponent() {
                 </Carousel>
             </div>
         </section>
-    );
-}
 
-export default CarouselComponent;
-
-{ /* Pverlay works but has a third faulty slide
-function CarouselComponent() {
-    return (
-        <section id ={styles.home}className={
-            styles.HeroBlock
+        {/** MOBILE DISPLAY */}
+        <section id={
+            styles.home
+        }
+        className={
+            `${styles.HeroBlock}${styles.MobileDisplay}`
+    }>
+        <div className={
+            styles.carouselContainer
         }>
             <Carousel>
-            <Carousel.Item interval={3000}>
-                <img className="d-block w-100" src={Hero} alt="First slide" />
-            </Carousel.Item>
-            <Carousel.Item interval={3000}>
-                <img className="d-block w-100" src={Hero2} alt="Second slide" />
-            </Carousel.Item>
-                <div className={
-                styles.overlay
-            }></div>
+                <Carousel.Item interval={3000}>
+                    {/* Overlay on each item*/}
+                    <div className={
+                        styles.overlay
+                    }></div>
+                    <img className="d-block w-100"
+                        src={Heromobile}
+                        alt="First slide"/>
+                </Carousel.Item>
+                <Carousel.Item interval={3000}>
+                    {/* Overlay on each item*/}
+                    <div className={
+                        styles.overlay
+                    }></div>
+                    <img className="d-block w-100"
+                        src={Hero2mobile}
+                        alt="Second slide"/>
+                </Carousel.Item>
             </Carousel>
-
-         </section>
+        </div>
+    </section>
+    </>
     );
 }
 
 export default CarouselComponent;
-*/
-}

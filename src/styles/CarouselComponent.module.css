@@ -13,3 +13,25 @@
     background: linear-gradient(to right, rgba(0, 0, 0, 1) 50%, transparent 100%);
     z-index: 2; /* Ensure the overlay is above the carousel */
 }
+
+
+.Mobiledisplay {
+  visibility: hidden!important;
+}
+
+.DesktopDisplay{
+  visibility: visible!important;;
+}
+
+@media screen and (max-width: 980px) {
+
+  .Mobiledisplay {
+    visibility: visible!important;
+  }
+  
+  .DesktopDisplay{
+    visibility: hidden!important;;
+  }
+  
+
+}

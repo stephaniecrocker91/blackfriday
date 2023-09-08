@@ -10,7 +10,6 @@ function Landing() {
     return (
         <>  
         <div className={styles.Hero}>
-            <div className={styles.overlay}></div>
             {/** <img src={hero} alt='Hero with lashes' />*/}
             <CarouselComponent />
             <div className={styles.Content}>
