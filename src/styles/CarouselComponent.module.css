@@ -1,37 +1,41 @@
 /* .HeroBlock container */
 .carouselContainer {
-    position: relative;
+  position: relative;
 }
 
-  /* .overlay styles */
+/* .overlay styles */
 .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; /* Cover the entire container */
-    background: linear-gradient(to right, rgba(0, 0, 0, 1) 50%, transparent 100%);
-    z-index: 2; /* Ensure the overlay is above the carousel */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Cover the entire container */
+  background: linear-gradient(to right, rgba(0, 0, 0, 1) 50%, transparent 100%);
+
 }
 
-
-.Mobiledisplay {
-  visibility: hidden!important;
+/* Mobile display */
+.MobileDisplay {
+  display: none; /* Hide on desktop */
 }
 
-.DesktopDisplay{
-  visibility: visible!important;;
+/* Desktop display */
+.DesktopDisplay {
+  display: block; /* Show on desktop */
 }
 
 @media screen and (max-width: 980px) {
-
-  .Mobiledisplay {
-    visibility: visible!important;
+  /* Mobile display */
+  .MobileDisplay {
+      display: block; /* Show on mobile */
   }
-  
-  .DesktopDisplay{
-    visibility: hidden!important;;
-  }
-  
 
+  /* Desktop display */
+  .DesktopDisplay {
+      display: none; /* Hide on mobile */
+  }
+  .overlay {
+    background: linear-gradient(to right, transparent 0%, transparent 100%);
+    background-color: rgba(0, 0, 0, 0.5);
+}
 }
