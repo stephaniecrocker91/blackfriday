@@ -26,3 +26,10 @@
     width: 2ch;
 }
 
+@media screen and (max-width: 466px) {
+    .countdown {
+        font-size: 25px;
+    }
+
+}
+

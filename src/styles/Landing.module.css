@@ -5,7 +5,7 @@
     text-align: right;
 }
 
-img {
+.Hero img {
     width: 50%;
     height: 60vh;
     object-fit: cover;
@@ -21,7 +21,7 @@ img {
     text-shadow: 2px 2px 4px #000000;
     position: absolute;
     top: 0;
-    margin-top: 16vh;
+    margin-top: 25vh;
     margin-left: 4vw;
 }
 
@@ -46,7 +46,7 @@ img {
         font-size: 60px;
     }
 
-    img {
+    .Hero img {
         width: 100%;
     }
 
@@ -56,7 +56,7 @@ img {
 
     }
     .Content {
-        margin-top: 25vh;
+        margin-top: 30vh;
     }
 }
 
@@ -69,6 +69,9 @@ img {
 @media screen and (max-width: 466px) {
     h1 {
         font-size: 40px;
+    }
+    .Content {
+        margin-top: 35vh;
     }
 
 }

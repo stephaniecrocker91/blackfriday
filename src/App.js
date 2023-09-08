@@ -12,6 +12,7 @@ function App() {
     return (
     <div className={styles.App}>
         <BlackBanner message={<>Unlock <strong>VIP Access</strong>  to Exclusive Deals Before Anyone Else! <i class='fa-regular fa-gem'></i></>} />
+        <NavBar />
         <Landing />
         <BeigeBanner/>
         <BlackBanner message={<>Don't Just Follow Trends – <strong>Set Them</strong> with Exclusive Member Deals!</>} />
