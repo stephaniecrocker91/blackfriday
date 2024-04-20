@@ -29,12 +29,12 @@ function CarouselComponent() {
                         <Carousel.Item interval={3000}>
                             {/* Overlay on each item */}
                             <div className={styles.overlay}></div>
-                            <img className="d-block w-100" src={Hero} alt="First slide" />
+                            <img className="d-block w-100" src={Hero} alt="First slide" loading="eager" />
                         </Carousel.Item>
                         <Carousel.Item interval={3000}>
                             {/* Overlay on each item */}
                             <div className={styles.overlay}></div>
-                            <img className="d-block w-100" src={Hero2} alt="Second slide" />
+                            <img className="d-block w-100" src={Hero2} alt="Second slide" loading="eager" />
                         </Carousel.Item>
                     </Carousel>
                 </div>
@@ -50,12 +50,12 @@ function CarouselComponent() {
                         <Carousel.Item interval={3000}>
                             {/* Overlay on each item */}
                             <div className={styles.overlay}></div>
-                            <img className="d-block w-100" src={Heromobile} alt="First slide" />
+                            <img className="d-block w-100" src={Heromobile} alt="First slide" loading="eager" />
                         </Carousel.Item>
                         <Carousel.Item interval={3000}>
                             {/* Overlay on each item */}
                             <div className={styles.overlay}></div>
-                            <img className="d-block w-100" src={Hero2mobile} alt="Second slide" />
+                            <img className="d-block w-100" src={Hero2mobile} alt="Second slide" loading="eager" />
                         </Carousel.Item>
                     </Carousel>
                 </div>
